@@ -1,0 +1,5 @@
+setting,model,random_AMAE,channel_AMAE,random_ASRC,channel_ASRC,AMAE_increase
+no EP,Ridge,1.985,2.031,0.791,0.761,+0.046
+no EP,CatBoost,1.658,—,0.849,—,—
+EP,Ridge,0.914,0.921,0.956,0.952,+0.007
+EP,CatBoost,0.745,—,0.962,—,—

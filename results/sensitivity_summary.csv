@@ -1,0 +1,10 @@
+group,feature,dAMAE,dAMAE_sd,dASRC,runs
+check_bs64_rand_ep0_resnet,Subscribers,2.3737988,,-0.7048400214456001,1
+check_bs64_rand_ep0_resnet,Text (BERT),0.38997912,,-0.07658132452436761,1
+check_bs64_rand_ep0_resnet,Cover image,0.16070771,,-0.030682334484587903,1
+check_bs64_rand_ep0_resnet,Duration,0.030719042,,-0.004653723314782754,1
+check_bs64_rand_ep0_resnet,Category,0.02556312,,-0.003927550240694799,1
+check_bs64_rand_ep0_resnet,Language,0.023825645,,-0.004149644059324276,1
+check_bs64_rand_ep0_resnet,Title length,0.0106550455,,-0.001855618155452321,1
+check_bs64_rand_ep0_resnet,Description length,0.0026350021,,-0.0004668089924066976,1
+check_bs64_rand_ep0_resnet,Tag count,0.001437068,,-0.00020185871001809907,1

@@ -1,0 +1,17 @@
+run,group,kind,value,change
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,People & Blogs,0.1640329360961914
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,Gaming,0.14196205139160156
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,News & Politics,-0.2636590003967285
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,Entertainment,0.022040367126464844
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,Music,-0.1389789581298828
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,Education,-0.1269378662109375
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,Sports,0.1650552749633789
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,Howto & Style,-0.17939043045043945
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,Film & Animation,-0.05145120620727539
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,Nonprofits & Activism,-0.30580615997314453
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,Travel & Events,0.13029861450195312
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,Comedy,0.2105693817138672
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,Science & Technology,0.09476280212402344
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,Autos & Vehicles,0.17537641525268555
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,category,Pets & Animals,-0.11022710800170898
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,cover,cover removed (videos that had one),-0.10810277611017227

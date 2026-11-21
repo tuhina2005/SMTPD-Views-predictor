@@ -1,0 +1,2 @@
+name,group,seed,split,ep_days,image,batch_size,best_epoch,AMAE,ASRC,AMSE,cover_AMAE,cover_ASRC
+check_bs64_rand_ep0_resnet_s0,check_bs64_rand_ep0_resnet,0,random,0,resnet,64,13,1.6045111949096138,0.8542798959082165,4.651503611370546,1.6020018135432899,0.8557834777453699

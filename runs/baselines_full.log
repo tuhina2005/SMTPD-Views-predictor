@@ -1,0 +1,58 @@
+=== random ep1
+/Users/tuhinaagarwal/fds proj/SMTPD/ext/common.py:49: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  src = np.array([stats.spearmanr(labels[:, i], preds[:, i])[0] for i in range(labels.shape[1])])
+/Users/tuhinaagarwal/fds proj/SMTPD/ext/common.py:50: RuntimeWarning: Mean of empty slice
+  return {"AMAE": float(mae.mean()), "AMSE": float(mse.mean()), "ASRC": float(np.nanmean(src)),
+random ep1 mean         test AMAE 3.4801 ASRC nan  (0s)
+random ep1 persistence  test AMAE 2.2752 ASRC 0.9523  (1s)
+random ep1 ridge        test AMAE 0.9141 ASRC 0.9565  (2s)
+0:	learn: 20.0567994	test: 19.9833614	best: 19.9833614 (0)	total: 3.57s	remaining: 2h 58m 25s
+250:	learn: 5.9861684	test: 5.9783329	best: 5.9783329 (250)	total: 25m 14s	remaining: 4h 36m 29s
+500:	learn: 5.9113486	test: 5.9395366	best: 5.9395366 (500)	total: 1h 10m 28s	remaining: 5h 51m 32s
+750:	learn: 5.8600873	test: 5.9214410	best: 5.9214410 (750)	total: 1h 40m 12s	remaining: 5h 4s
+1000:	learn: 5.8171571	test: 5.9098328	best: 5.9098153 (999)	total: 2h 5m 35s	remaining: 4h 10m 47s
+1250:	learn: 5.7785848	test: 5.9007306	best: 5.9006845 (1239)	total: 2h 28m 46s	remaining: 3h 27m 59s
+1500:	learn: 5.7433593	test: 5.8920257	best: 5.8920257 (1500)	total: 2h 55m 48s	remaining: 2h 55m 34s
+1750:	learn: 5.7109363	test: 5.8854982	best: 5.8853917 (1749)	total: 3h 25m 30s	remaining: 2h 26m 35s
+2000:	learn: 5.6815043	test: 5.8801845	best: 5.8801774 (1995)	total: 3h 51m 19s	remaining: 1h 55m 29s
+2250:	learn: 5.6530795	test: 5.8758269	best: 5.8758046 (2232)	total: 4h 13m 26s	remaining: 1h 24m 19s
+2500:	learn: 5.6261363	test: 5.8737503	best: 5.8736873 (2495)	total: 4h 35m 41s	remaining: 55m
+2750:	learn: 5.6008797	test: 5.8696421	best: 5.8696421 (2750)	total: 4h 58m 25s	remaining: 27m
+2999:	learn: 5.5774077	test: 5.8677859	best: 5.8676377 (2974)	total: 5h 20m	remaining: 0us
+
+bestTest = 5.867637722
+bestIteration = 2974
+
+Shrink model to first 2975 iterations.
+random ep1 catboost     test AMAE 0.7453 ASRC 0.9623  (20179s)
+=== random ep0
+/Users/tuhinaagarwal/fds proj/SMTPD/ext/common.py:49: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  src = np.array([stats.spearmanr(labels[:, i], preds[:, i])[0] for i in range(labels.shape[1])])
+/Users/tuhinaagarwal/fds proj/SMTPD/ext/common.py:50: RuntimeWarning: Mean of empty slice
+  return {"AMAE": float(mae.mean()), "AMSE": float(mse.mean()), "ASRC": float(np.nanmean(src)),
+random ep0 mean         test AMAE 3.4925 ASRC nan  (0s)
+random ep0 ridge        test AMAE 1.9846 ASRC 0.7906  (2s)
+0:	learn: 21.0721668	test: 21.0006339	best: 21.0006339 (0)	total: 4.07s	remaining: 3h 23m 23s
+250:	learn: 12.2362051	test: 12.2764678	best: 12.2764678 (250)	total: 26m 58s	remaining: 4h 55m 25s
+500:	learn: 12.0271808	test: 12.1298295	best: 12.1298295 (500)	total: 57m 19s	remaining: 4h 45m 54s
+750:	learn: 11.8947149	test: 12.0550338	best: 12.0550338 (750)	total: 1h 28m 51s	remaining: 4h 26m 5s
+1000:	learn: 11.7877746	test: 12.0023038	best: 12.0022935 (999)	total: 1h 59m 35s	remaining: 3h 58m 50s
+1250:	learn: 11.6936540	test: 11.9609226	best: 11.9609110 (1248)	total: 2h 28m 59s	remaining: 3h 28m 17s
+1500:	learn: 11.6159548	test: 11.9294173	best: 11.9293509 (1499)	total: 2h 59m 35s	remaining: 2h 59m 21s
+1750:	learn: 11.5471954	test: 11.9076424	best: 11.9076424 (1750)	total: 3h 28m 43s	remaining: 2h 28m 53s
+2000:	learn: 11.4788846	test: 11.8870258	best: 11.8870258 (2000)	total: 3h 58m 29s	remaining: 1h 59m 3s
+2250:	learn: 11.4211035	test: 11.8690117	best: 11.8688975 (2247)	total: 4h 26m 2s	remaining: 1h 28m 31s
+2500:	learn: 11.3610100	test: 11.8515052	best: 11.8513856 (2499)	total: 5h 2m 39s	remaining: 1h 23s
+2750:	learn: 11.3076696	test: 11.8379927	best: 11.8378983 (2746)	total: 5h 37m 25s	remaining: 30m 32s
+2999:	learn: 11.2551830	test: 11.8235947	best: 11.8235203 (2998)	total: 6h 5m 31s	remaining: 0us
+
+bestTest = 11.82352035
+bestIteration = 2998
+
+Shrink model to first 2999 iterations.
+random ep0 catboost     test AMAE 1.6576 ASRC 0.8493  (29802s)
+=== channel ep1
+/Users/tuhinaagarwal/fds proj/SMTPD/ext/common.py:49: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  src = np.array([stats.spearmanr(labels[:, i], preds[:, i])[0] for i in range(labels.shape[1])])
+/Users/tuhinaagarwal/fds proj/SMTPD/ext/common.py:50: RuntimeWarning: Mean of empty slice
+  return {"AMAE": float(mae.mean()), "AMSE": float(mse.mean()), "ASRC": float(np.nanmean(src)),

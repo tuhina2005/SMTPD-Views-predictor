@@ -1,0 +1,21 @@
+check_bs64_rand_ep0_resnet_s0 on mps: {'train': 197736, 'val': 28248, 'test': 56497}, inputs {'image': 'resnet', 'text': True, 'catlang': True, 'numeric': True, 'clip_sim': False, 'ep_days': 0, 'img_dim': 2048, 'meta_dim': 5, 'n_targets': 30}
+epoch  1  train 2.2883  val loss 2.5455  AMAE 1.8587  ASRC 0.8117  (329s)
+epoch  2  train 1.9750  val loss 2.9207  AMAE 2.0053  ASRC 0.8205  (611s)
+epoch  3  train 1.9594  val loss 2.5762  AMAE 1.8633  ASRC 0.8221  (4248s)
+epoch  4  train 1.8417  val loss 1.9950  AMAE 1.7366  ASRC 0.8378  (4265s)
+epoch  5  train 1.8128  val loss 1.9431  AMAE 1.7216  ASRC 0.8414  (322s)
+epoch  6  train 1.7985  val loss 1.9598  AMAE 1.7280  ASRC 0.8367  (300s)
+epoch  7  train 1.7818  val loss 2.0292  AMAE 1.7348  ASRC 0.8406  (297s)
+epoch  8  train 1.7251  val loss 1.8099  AMAE 1.6337  ASRC 0.8508  (296s)
+epoch  9  train 1.7038  val loss 1.7955  AMAE 1.6263  ASRC 0.8521  (297s)
+epoch 10  train 1.6876  val loss 1.7831  AMAE 1.6144  ASRC 0.8528  (298s)
+epoch 11  train 1.6688  val loss 1.8051  AMAE 1.6217  ASRC 0.8522  (296s)
+epoch 12  train 1.6483  val loss 1.8061  AMAE 1.6320  ASRC 0.8490  (303s)
+epoch 13  train 1.5903  val loss 1.7342  AMAE 1.5867  ASRC 0.8559  (299s)
+epoch 14  train 1.5662  val loss 1.7388  AMAE 1.5919  ASRC 0.8561  (299s)
+epoch 15  train 1.5363  val loss 1.7511  AMAE 1.6082  ASRC 0.8547  (297s)
+epoch 16  train 1.5021  val loss 1.7320  AMAE 1.5968  ASRC 0.8532  (300s)
+epoch 17  train 1.4850  val loss 1.7221  AMAE 1.5930  ASRC 0.8534  (302s)
+epoch 18  train 1.4742  val loss 1.7190  AMAE 1.5935  ASRC 0.8532  (307s)
+early stop: no val improvement for 5 epochs
+check_bs64_rand_ep0_resnet_s0: best epoch 13, test AMAE 1.6045 ASRC 0.8543

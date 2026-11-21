@@ -1,0 +1,39 @@
+{
+  "name": "check_bs64_rand_ep0_resnet_s0",
+  "features": "/Users/tuhinaagarwal/fds proj/features",
+  "runs_dir": "../runs/check",
+  "split": "random",
+  "split_seed": 23,
+  "seed": 0,
+  "image": "resnet",
+  "no_text": false,
+  "no_catlang": false,
+  "no_numeric": false,
+  "clip_sim": false,
+  "ep_days": 0,
+  "epochs": 40,
+  "patience": 5,
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "in_memory": false,
+  "device": "mps",
+  "overwrite": true,
+  "inputs": {
+    "image": "resnet",
+    "text": true,
+    "catlang": true,
+    "numeric": true,
+    "clip_sim": false,
+    "ep_days": 0,
+    "img_dim": 2048,
+    "meta_dim": 5,
+    "n_targets": 30
+  },
+  "sizes": {
+    "train": 197736,
+    "val": 28248,
+    "test": 56497
+  },
+  "trainable_params": 23666212
+}
